@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Rouget | Dev Fullstack & Agilité</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+67
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Joshua Rouget<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">Mon Approche</a></li>
+            <li><a href="#projects">Réalisations</a></li>
+            <li><a href="#contact" class="btn-primary">Me contacter</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge-intro">Disponible pour une alternance</span>
+            <h1>Je ne fais pas que coder, <br> <span id="dynamic-text"></span></h1>
+            <p class="hero-sub">
+                Développeur Fullstack en formation, Chef de Projet par passion.
+                Je sais communiquer avec le client et le challenger afin de proposer des solutions adaptées et optimales.
+            </p>
+            <div class="cta-group">
+                <a href="#projects" class="btn-primary">Voir mes projets</a>
+                <a href="#about" class="btn-secondary">Ma méthode</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="skills-section">
+        <div class="container">
+            <h2>L'approche Hybride</h2>
+            <p class="section-desc">Pourquoi choisir entre un dév et un gestionnaire quand on peut avoir les deux ?</p>
+            
+            <div class="grid-skills">
+                <div class="skill-card tech">
+                    <div class="icon">💻</div>
+                    <h3>Le Builder</h3>
+                    <p>Production de code propre, maintenable et scalables.</p>
+                    <ul class="skill-list">
+                        <li>Javascript / Html</li>
+                        <li>SQL</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card agile">
+                    <div class="icon">🚀</div>
+                    <h3>Le Manager</h3>
+                    <p>Organisation, priorisation et adaptation.</p>
+                    <ul class="skill-list">
+                        <li>Scrum / Kanban</li>
+                        <li>User Stories & Backlog</li>
+                        <li>Notion / Trello</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projets</h2>
+            
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="card-header">
+                        <span class="project-type">Javascript</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Pokedex</h3>
+                        <p class="problem"><strong>Challenge :</strong> Développer une plateforme imitant le Pokedex grâce à PokeAPI.</p>
+                        
+                        <div class="stacks">
+                            <div class="stack-group">
+                                <small>Tech</small>
+                                <div>
+                                    <span class="tag tech">Typescript</span>
+                                    <span class="tag tech">Html / CSS</span>
+                                </div>
+                            </div>
+                            <div class="stack-group">
+                                <small>Agile</small>
+                                <div>
+                                    <span class="tag agile">Kanban</span>
+                                    <span class="tag agile">Testing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="projetJS.html" class="link-arrow">Déscription du projet &rarr;</a>
+                    </div>
+                </article>
+                
+
+                <article class="project-card">
+                    <div class="card-header">
+                        <span class="project-type">Outil Interne</span>
+                    </div>
+                    <div class="card-body">
+                        <h3>Annuaire du Réseau Régional de l'Innovation</h3>
+                        <p class="problem"><strong>Challenge :</strong> Améliorer la productivité de l'équipe étudiante.</p>
+                        
+                        <div class="stacks">
+                            <div class="stack-group">
+                                <small>Tech</small>
+                                <div>
+                                    <span class="tag tech">CMS / WeWeb</span>
+                                    <span class="tag tech">Supabase</span>
+                                </div>
+                            </div>
+                            <div class="stack-group">
+                                <small>Agile</small>
+                                <div>
+                                    <span class="tag agile">Scrum / Sprints</span>
+                                    <span class="tag agile">Kanban</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="link-arrow">Déscription du projet &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Joshua Rouget. Construit avec Code & Agilité.</p>
+    </footer>
+
+    <script src="src/main.js"></script> 
+</body>
+</html>
